@@ -14,7 +14,7 @@ wisp.options.wisp_version = 2;
 // default (-1) limits until upstream fixes that mismatch; otherwise every
 // CONNECT packet can crash the relay. Destination/IP restrictions stay on.
 wisp.options.stream_limit_per_host = -1;
-wisp.options.stream_limit_total = -1;
+wisp.options.stream_limit_total = 128;
 
 logging.set_level(logging.INFO);
 
