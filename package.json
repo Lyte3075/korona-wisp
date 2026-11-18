@@ -1,0 +1,16 @@
+{
+  "name": "korona-wisp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Korona-compatible Wisp v1/v2 relay for Railway",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.4.0"
+  }
+}
